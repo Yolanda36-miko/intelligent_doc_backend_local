@@ -8,6 +8,10 @@
 - `app/models/`: 数据契约 (统一 9 模块的输入输出标准)
 - `celery_worker/`: 异步中心 (处理耗时解析，保护 16GB 内存)
 
+## 实例结构，仅供参考
+- intelligent_doc_backend\app\services\parser_svc.py
+- intelligent_doc_backend\app\routers\parsing.py
+
 ## 🛠️ 快速启动
 1. **创建环境**: `python -m venv light.venv`
 2. **激活环境**: `.\light.venv\Scripts\activate`
