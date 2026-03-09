@@ -62,3 +62,4 @@ class SystemMetrics(BaseModel):
     latency_ms: float = Field(..., description="平均处理时延")
     memory_usage: float = Field(..., description="16GB 内存当前占用率 (%)")
     active_workers: int = Field(..., description="模块7: 当前活跃的并行进程数")
+

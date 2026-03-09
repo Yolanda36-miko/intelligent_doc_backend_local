@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# 运行数据
+data/uploads/
+data/mineru_output/
+
+# OS
+.DS_Store
+Thumbs.db
